@@ -7,11 +7,11 @@ public class Medic extends Hero{
 
     @Override
     public void applySuperAbility() {
-
+        System.out.println("медик исползовал свой способность "+getPower());
     }
 
     @Override
     public void applySuperAbility(String superAbilityType) {
-
+        System.out.println("medic-"+superAbilityType);
     }
 }

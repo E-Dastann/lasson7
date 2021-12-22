@@ -8,7 +8,10 @@ public class Main {
         Magic magic = new Magic(200, 30, "использовал супер силу Atak");
         System.out.println("медик xp-" + medic.getHealth() + " sposobnost-" + medic.getPower() + " uron-" + medic.getDamage());
         System.out.println("xp-" + warrior.getHealth() + " uron-" + warrior.getDamage() + " sposobnost-" + warrior.getPower());
-        System.out.println("xp-"+magic.getHealth()+" damage-"+magic.getDamage()+" power-"+magic.getPower());
+        System.out.println("xp-" + magic.getHealth() + " damage-" + magic.getDamage() + " power-" + magic.getPower());
+        magic.applySuperAbility(magic.getPower());
+        warrior.applySuperAbility(warrior.getPower());
+        medic.applySuperAbility(medic.getPower());
 
 
         Hero[] heroes = {magic, warrior, medic};

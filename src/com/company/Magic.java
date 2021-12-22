@@ -8,11 +8,11 @@ public class Magic extends Hero{
 
     @Override
     public void applySuperAbility() {
-
+        System.out.println("Magic применил суперспособность" + getPower());
     }
 
     @Override
     public void applySuperAbility(String superAbilityType) {
-
+        System.out.println("Magic " + superAbilityType );
     }
 }

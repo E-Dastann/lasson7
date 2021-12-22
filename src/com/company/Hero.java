@@ -14,6 +14,7 @@ public abstract class  Hero implements HavingSuperAbility {
     }
 
 
+
     public int getHealth() {
         return health;
     }
